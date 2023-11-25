@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin-top: 2%;
+}
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header li{
+    display: inline-block;
+    padding-left: 8%;
+}
+header a{
+    text-decoration: none;
+}
