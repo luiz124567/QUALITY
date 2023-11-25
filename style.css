@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 body{
     margin: 0;
-    background: linear-gradient(180deg, #021723 0%, #2CAEA2 100%);
+    background: linear-gradient(180deg, #0C70F2 50%, #303030 68%);
     background-repeat: no-repeat;
    
 }
@@ -80,7 +80,7 @@ header a:hover{
    }
    /* Animaçao-da-QULITY */
    #menu-header p{
-    color: #032925;
+    color: #061d1b;
     font-family: Inter;
     font-size: 35px;
     font-weight: 500;
@@ -95,6 +95,33 @@ header a:hover{
     font-size: 20px;
     border: 0;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 7%;
    }
+   #menu-header button:hover{
+    color:#032925;
+    background: #bbb3b3;
+   }
+   /* Style-Section */
+   section{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:space-around;
+    text-align: center;
+   }
+section h2{
+    color: #F40000;
+    font-family: var(--Fonte-Padrão);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 0;
+    letter-spacing: 1.5px;
+}
+section p{
+    color: #FFF;
+    text-align: center;
+    font-family: var(--Fonte-Padrão);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
