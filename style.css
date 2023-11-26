@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 body{
     margin: 0;
-    background: linear-gradient(180deg, #0C70F2 50%, #303030 68%);
+    background: linear-gradient(180deg, #0C70F2 50%, #151515 68%);
     background-repeat: no-repeat;
    
 }
@@ -33,10 +33,7 @@ header a{
     color: #fff ;
 }
 header a:hover{
-    transform: translateY(-4px);
-    box-shadow: 15px 15px 15px #f40000;
-    transition-duration: 0.5s;
-    color:#2CAEA2;
+    color:#f40000;
 }
 #menu-header h1{
     color: #FFF;
@@ -154,4 +151,24 @@ font-size: 25px;
 font-weight: 400;
 line-height: 1.2;
 margin-top: 60px;
+}
+aside{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: fr;
+}
+aside h1{
+    text-align: center;
+    color: #f40000;
+    font-family: var(--Fonte-Padrão);
+    font-size: 50px;
+    font-weight: 800;
+}
+aside p{
+    color: #FFF;
+    text-align: center;
+    font-family: var(--Fonte-Padrão);
+    font-size: 31px;
+    font-weight: 400;
+    margin-left: 5%;
 }
