@@ -8,32 +8,43 @@ body{
 :root{
     --Fonte-Padrão:'Inter'
 }
+
+
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#1100D0;
+}
+nav img{
+    margin: 0 0 0 7%;
+}
+ nav a{
+    color: #FFF;
+    font-family:Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 15%;
+}
+nav a:hover{
+    color: black;
+}
+#menu{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    margin-right: 5%;
+}
 header{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     margin: 2% 0 0 7%;
-}
-header ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-header li{
-    display: inline-block;
-    padding-left: 8%;
-    margin-left: 5%;
-    font-family: var(--Fonte-Padrão);
-    font-weight: 600;
-    font-size: 22px;
-    text-align: center;
-}
-header a{
-    text-decoration: none;
-    color: #fff ;
-}
-header a:hover{
-    color:#f40000;
 }
 #menu-header h1{
     color: #FFF;
@@ -171,4 +182,13 @@ aside p{
     font-size: 31px;
     font-weight: 400;
     margin-left: 5%;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background: linear-gradient(180deg, #0C70F2 50%, #151515 68%);
+    }
+ 
+   
+    
+    
 }
