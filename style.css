@@ -1,194 +1,247 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
-body{
-    margin: 0;
-    background: linear-gradient(180deg, #0C70F2 50%, #151515 68%);
-    background-repeat: no-repeat;
-   
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #0c70f2 50%, #151515 68%);
+  background-repeat: no-repeat;
 }
-:root{
-    --Fonte-Padrão:'Inter'
+:root {
+  --Fonte-Padrão: "Inter";
 }
-
-
-nav{
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background:#1100D0;
+nav {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1100d0;
 }
-nav img{
-    margin: 0 0 0 7%;
+nav img {
+  margin: 0 0 0 7%;
 }
- nav a{
-    color: #FFF;
-    font-family:Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-    margin-left: 15%;
+nav a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  margin-left: 15%;
 }
-nav a:hover{
-    color: black;
+nav a:hover {
+  color: black;
 }
-#menu{
-    display: flex;
-    width: 45%;
-    align-items: center;
-    margin-right: 5%;
+#menu {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  margin-right: 5%;
 }
-header{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-    margin: 2% 0 0 7%;
+header {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  margin: 2% 0 0 7%;
 }
-#menu-header h1{
-    color: #FFF;
-    font-family: var(--Fonte-Padrão);
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 1.0;
-    padding-top: 5%;
+#menu-header h1 {
+  color: #fff;
+  font-family: var(--Fonte-Padrão);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1;
+  padding-top: 5%;
 }
-#menu-header .animated-gradient{
-    font-family: Inter;
-    font-size: 105px;
-    font-style: normal;
-    font-weight: 800;
+#menu-header .animated-gradient {
+  font-family: Inter;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 800;
 }
-#menu-header strong{
-    color: #FFF;
-    font-family: var(--Fonte-Padrão);
-    font-size: 30px;
-    font-weight: 800;
-} 
+#menu-header strong {
+  color: #fff;
+  font-family: var(--Fonte-Padrão);
+  font-size: 30px;
+  font-weight: 800;
+}
 /* Animaçao-da-QULITY */
 .animated-gradient {
-    background: linear-gradient(120deg, #ff0000, #0000ff);
-    background-size: 400% 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradient 5s ease infinite;
-   }
-   
-   @keyframes gradient {
-     0% {
-       background-position: 0% 50%;
-    }
-     50% {
-       background-position: 100% 50%;
-    }
-     100% {
-       background-position: 0% 50%;
-    }
-   }
-   /* Animaçao-da-QULITY */
-   #menu-header p{
-    color: #09302c;
-    font-family: Inter;
-    font-size: 35px;
-    font-weight: 500;
-    padding-top: 6%;
-   }
-   #menu-header button{
-    width: 175px;
-    height: 50px;
-    color: #FFF;
-    background:#032925 ;
-    font-family: var(--Fonte-Padrão);
-    font-size: 20px;
-    border: 0;
-    border-radius: 20px;
-    font-weight: 600;
-    margin-bottom: 7%;
-   }
-   #menu-header button:hover{
-    color:#032925;
-    background: #bbb3b3;
-   }
-   /* Style-Section */
-   section{
-    display: grid;
-    grid-auto-flow: column;
-    justify-content:space-around;
-    text-align: center;
-    margin-bottom: 5%;
-   }
-section h2{
-    color: #F40000;
-    font-family: var(--Fonte-Padrão);
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 0;
-    letter-spacing: 1.5px;
+  background: linear-gradient(120deg, #ff0000, #0000ff);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
 }
-section p{
-    color: #FFF;
-    text-align: center;
-    font-family: var(--Fonte-Padrão);
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-article{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+/* Animaçao-da-QULITY */
+#menu-header p {
+  color: #09302c;
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 6%;
 }
-article img{
-    margin-top: -13%;
-    width: 120%;
+#menu-header button {
+  width: 175px;
+  height: 50px;
+  color: #fff;
+  background: #032925;
+  font-family: var(--Fonte-Padrão);
+  font-size: 20px;
+  border: 0;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 7%;
 }
-#descrição-QUEM{
-    margin-top: 5%;
+#menu-header button:hover {
+  color: #032925;
+  background: #bbb3b3;
 }
-article h1{
-    text-align: center;
-    color: #F40000;
-    font-family: var(--Fonte-Padrão);
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 1.2;
+/* Style-Section */
+section {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 5%;
 }
-article p{
-    color: #FFF;
-text-align: center;
-font-family: var(--Fonte-Padrão);
-font-size: 25px;
-font-weight: 400;
-line-height: 1.2;
-margin-top: 60px;
+section h2 {
+  color: #f40000;
+  font-family: var(--Fonte-Padrão);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0;
+  letter-spacing: 1.5px;
 }
-aside{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: fr;
+section p {
+  color: #fff;
+  text-align: center;
+  font-family: var(--Fonte-Padrão);
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
-aside h1{
-    text-align: center;
-    color: #f40000;
-    font-family: var(--Fonte-Padrão);
-    font-size: 50px;
-    font-weight: 800;
+article {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
 }
-aside p{
-    color: #FFF;
-    text-align: center;
-    font-family: var(--Fonte-Padrão);
-    font-size: 31px;
-    font-weight: 400;
-    margin-left: 5%;
+article img {
+  margin-top: -13%;
+  width: 120%;
+}
+#descrição-QUEM {
+  margin-top: 5%;
+}
+article h1 {
+  text-align: center;
+  color: #f40000;
+  font-family: var(--Fonte-Padrão);
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+article p {
+  color: #fff;
+  text-align: center;
+  font-family: var(--Fonte-Padrão);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 60px;
+}
+aside {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: fr;
+}
+aside h1 {
+  text-align: center;
+  color: #f40000;
+  font-family: var(--Fonte-Padrão);
+  font-size: 50px;
+  font-weight: 800;
+}
+aside p {
+  color: #fff;
+  text-align: center;
+  font-family: var(--Fonte-Padrão);
+  font-size: 31px;
+  font-weight: 400;
+  margin-left: 5%;
 }
 @media only screen and (max-width: 600px) {
-    body{
-        background: linear-gradient(180deg, #0C70F2 50%, #151515 68%);
-    }
- 
-   
-    
-    
+  body {
+    background: linear-gradient(180deg, #0c70f2 50%, #151515 68%);
+  }
+  header {
+    display: inline-block;
+  }
+  aside{
+    display: inline-block;
+  }
+  article{
+    display: inline-block;
+  }
+  #principal{
+    display: flex;
+    height: auto;
+    width: 750px;
+}
+nav img{
+    width: 50%;
+    margin-top: 5%;
+}
+#menu{
+    flex-direction: column;
+    margin-top:1%;
+}
+#menu a{
+display: flex;
+height: 70px;
+font-size: 55px;
+} 
+#menu-header{
+    text-align: center;
+}
+#menu-header h1{
+    font-size: 70px;
+}
+#menu-header p{
+    margin-top: -8%;
+    font-size: 49px;
+    margin-left: 14%;
+    text-align: center;    
+}
+header img{
+    margin-left: 3%;
+    margin-top: -10%;
+}
+section{
+    display: inline-block;
+}
+.Objetivo-Empresa{
+    width: 190%;
+    margin: 4% 0 0 18%;
+}
+.Objetivo-Empresa h2{
+    font-size: 60px;
+}
+.Objetivo-Empresa p{
+    font-size: 30px;
+}
+article img{
+    width: 190%;
+    margin-left: 18%;
+}
+
 }
